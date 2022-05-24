@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+html {
+  color: white;
+}
+header {
+  padding: 0px 10px 10px 15px; 
+  font-size: 2.3rem;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  line-height: 3rem;
+}
+img {
+width: 100% 
+}
+
+body {
+  background-color: black;
+  line-height: 2rem;
+  text-align: center;
+  font-family: 'Macondo', serif;
+  font-size: 1.3rem;
+}
+p {
+  padding: 0 10% 0 10%;
+}
+.app {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+.app:nth-of-type(1) {
+  margin-top: 20px;
+}
