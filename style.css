@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 html {
   color: white;
+
 }
 header {
+  margin-top: 1rem;
   padding: 0px 10px 10px 15px; 
   font-size: 2.3rem;
   font-family: 'Rock Salt', cursive;
@@ -20,18 +22,86 @@ body {
   text-align: center;
   font-family: 'Macondo', serif;
   font-size: 1.3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+
 p {
   padding: 0 10% 0 10%;
 }
 .app {
   border: 2px solid white;
-  border-radius: 10px;
-  width: 40%;
+  border-radius: 1.5rem;
+  width: 12rem;
+  height: 3rem;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 
 }
 .app:nth-of-type(1) {
   margin-top: 20px;
+}
+
+
+
+a:link {
+  color: rgb(181, 181, 181);
+  
+}
+
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.app a {
+  display: inline-block;
+  width: 100%;
+}
+
+.app a:link {
+  text-decoration: none;  
+  color: white;
+}
+
+.app a:visited {
+  color: white;
+} 
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+li {
+  margin-right: 2rem;
+}
+
+
+footer {
+  margin-top: auto;
+  height: 10%;
+  font-size: 1.5rem;
+  padding:1rem;
+  padding-bottom: 2rem;
+}
+.tiphead {
+  padding: 0;
 }
